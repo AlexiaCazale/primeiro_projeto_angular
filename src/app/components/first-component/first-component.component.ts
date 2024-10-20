@@ -5,6 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './first-component.component.html',
   styleUrls: ['./first-component.component.css']
 })
+
 export class FirstComponentComponent implements OnInit {
   name: string = 'Aléxia';
   age: number = 19;
