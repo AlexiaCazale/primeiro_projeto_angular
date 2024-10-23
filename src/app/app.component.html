@@ -1,11 +1,20 @@
-<h1>Hello World!</h1>
-<p>Alguma coisa</p>
+<h1>Hello World!</h1> <!-- Ponto estático -->
+<nav>
+    <a routerLink="/">Home</a>
+    <a routerLink="/list">List</a>
+</nav>
+<router-outlet></router-outlet> <!-- OBS.: Agora o os componentes estão separados, só podem ser acessados colocando o nome do arquivo na url -->
+<p>footer</p> <!-- Ponto estático -->
+
+
+
+<!-- <p>Alguma coisa</p>
 <div>
 <a href="#">Clique aqui!</a>
 </div>
 
-<!-- Importando componentes -->
-<app-first-component></app-first-component>
+Importando componentes -->
+<!-- <app-first-component></app-first-component>
 <app-parent-data [name]="userName" [userData]="userData"></app-parent-data>
 <app-directives></app-directives>
 <app-if-render></app-if-render>
@@ -13,4 +22,4 @@
 <app-emitter></app-emitter>
 <app-list-render></app-list-render>
 <app-pipes></app-pipes>
-<app-two-way-binding></app-two-way-binding>
+<app-two-way-binding></app-two-way-binding> --> 
